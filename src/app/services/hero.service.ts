@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import {Md5} from "ts-md5/dist/esm/md5";
 import {HttpClient} from "@angular/common/http";
-import {environment} from "../../environments/environment";
-import {ApiResponse, Character} from "../models/marvel/api.types";
+import {environment} from "../environments/environment.dev";
+import {ApiResponse, Character} from "../models/api.types";
 import {of, switchMap, tap} from "rxjs";
 
 @Injectable({
